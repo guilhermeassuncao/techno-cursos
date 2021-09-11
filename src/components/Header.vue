@@ -1,7 +1,7 @@
 <template>
     <header>
         <nav>
-            <div class="header-logo">
+            <div class="header-brand">
                 <router-link to="/">Techno</router-link>
             </div>
             <ul>
@@ -23,17 +23,17 @@ header {
     background: #234;
 }
 
-.header-logo {
+.header-brand {
     flex: 1;
 }
 
-.header-logo a {
+.header-brand a {
     color: white;
     font-size: 1.25rem;
 }
 
 nav {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     align-content: space-between;
