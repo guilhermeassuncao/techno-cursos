@@ -3,7 +3,7 @@
 <br>
 
 <div align="center">
-  <img src="public//techno-cursos-github.svg" alt="Techno Cursos">
+  <img src="public/techno-cursos-github.svg" alt="Techno Cursos">
 </div>
 
 <br>
