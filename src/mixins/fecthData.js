@@ -11,7 +11,7 @@ export default {
 
             this.loading = true;
             this.api = null;
-            
+
             fetch(url)
                 .then((r) => r.json())
                 .then((r) => {

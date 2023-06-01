@@ -28,13 +28,13 @@
 </template>
 
 <script>
-import fecthData from "@/mixins/fecthData.js";
+import fecthData from '@/mixins/fecthData.js';
 
 export default {
-    name: "Home",
+    name: 'Home',
     mixins: [fecthData],
     created() {
-        this.fetchDada("/home");
+        this.fetchDada('/home');
     },
 };
 </script>
@@ -62,7 +62,7 @@ li {
     margin-top: 10px;
     margin-bottom: 40px;
     box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
-    font-family: "Avenir", Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
 }
 
 .home-img {

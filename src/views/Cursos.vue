@@ -25,13 +25,13 @@
 </template>
 
 <script>
-import fecthData from "@/mixins/fecthData.js";
+import fecthData from '@/mixins/fecthData.js';
 
 export default {
-    name: "Cursos",
+    name: 'Cursos',
     mixins: [fecthData],
     created() {
-        this.fetchDada("/cursos");
+        this.fetchDada('/cursos');
     },
 };
 </script>
