@@ -23,11 +23,11 @@
 </template>
 
 <script>
-import fecthData from "@/mixins/fecthData.js";
+import fecthData from '@/mixins/fecthData.js';
 
 export default {
-    name: "Aula",
-    props: ["aula"],
+    name: 'Aula',
+    props: ['aula'],
     mixins: [fecthData],
     created() {
         this.fetchDada(`/aulas/${this.aula}`);
